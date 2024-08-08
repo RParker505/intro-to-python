@@ -11,7 +11,10 @@
 ### Step 3: Create a script that adds two numbers together
 <img width="877" alt="1 1_add_script" src="https://github.com/user-attachments/assets/01f31b8e-5dd1-40ef-840e-8328f88d9f11">
 
-### Step 4: Set up an ipython shell
+### Step 4: Set up an IPython shell
+Install IPython with `pip install ipython` from the virtual environment.
+To launch the shell, run command `ipython`.
+
 <img width="704" alt="1 1_ipython_launch" src="https://github.com/user-attachments/assets/3f6e06cb-36ba-43ba-b87c-eb8db433f67c">
 
 ### Step 5: Create requirements.txt file
