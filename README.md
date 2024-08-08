@@ -14,3 +14,10 @@
 ### Step 4: Set up an ipython shell
 <img width="704" alt="1 1_ipython_launch" src="https://github.com/user-attachments/assets/3f6e06cb-36ba-43ba-b87c-eb8db433f67c">
 
+### Step 5: Create requirements.txt file
+Generate file with command `pip freeze > requirements.txt` from the virtual environment
+
+_And test it with a copied environment using_ `pip install -r requirements.txt`
+
+<img width="1255" alt="requirements_creation" src="https://github.com/user-attachments/assets/11dc418f-a1e5-449f-879d-eb402110b598">
+
