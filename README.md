@@ -1,5 +1,8 @@
 # Introduction To Python
 
+## Objective
+Build the command line version of a Recipe App that takes advantage of Python’s object-oriented nature. 
+
 ## Exercise 1.1
 
 ### Step 1: Install Python 3.8.7 on your system
