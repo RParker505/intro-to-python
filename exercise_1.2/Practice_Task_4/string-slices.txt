@@ -1,0 +1,12 @@
+Given the following:
+>>> str1 = 'hello, '
+>>> str2 = 'how are you?'
+>>> str3 = str1 + str2   # Would be 'hello, how are you?'
+
+What would these statements return?
+
+str3[3:] - 'lo, how are you?'
+str3[-3:] - 'ou?'
+str3[2:9:3] - 'l,o'
+str3[::-2] - '?o r o  olh'
+str3[2:8] - 'llo, h'
