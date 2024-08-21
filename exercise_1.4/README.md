@@ -56,3 +56,36 @@ Open a binary file with the user-defined filename and write data to it using the
 See the code in action!
 
 <img width="625" alt="recipe_input_code_test" src="https://github.com/user-attachments/assets/6e6cd4cc-379b-4767-8369-6385cc78a6cc">
+
+### Part 2: recipe_search.py Script
+
+#### Step 1: Import pickle
+Include `import pickle` at top of the script file so that you can work with binary files
+
+#### Step 2: Define display_recipe()
+The function takes in one recipe (a dictionary) as an argument and prints all of its attributes including the recipe name, cooking time, ingredients, and difficulty.
+
+<img width="341" alt="image" src="https://github.com/user-attachments/assets/adb52b32-8262-4b01-93a2-297be340f664">
+
+#### Step 3: Define search_ingredient()
+This function is used to search for an ingredient in the given data. The function takes in a dictionary called data as its argument. The function will perform the following steps:
+- Show the user all the available ingredients contained in `data`, under the key `all_ingredients`. Each ingredient is displayed with a number (done with the `enumerate()` function).
+- Define a try block where the user gets to pick a number from this list. This number is used as the index to retrieve the corresponding ingredient, which is then stored into a variable called `ingredient_searched`.
+- An except clause warns the user if the input is incorrect.
+- An else clause goes through every recipe in data. Each recipe that contains the given ingredient will be printed using `display_recipe()`, which was defined in Step 2.
+
+  <img width="525" alt="image" src="https://github.com/user-attachments/assets/81764d6f-0441-4b73-8890-4aa3387b9345">
+
+#### Step 4: Write the main code
+The main code will cover the following:
+- Ask the user for the recipe filename
+- Use a try block to open the file, and then extract its contents into data using pickle
+- An except block warns the user if the file hasn’t been found
+- An else block calls `search_ingredient()` while passing data into it as an argument
+
+<img width="520" alt="image" src="https://github.com/user-attachments/assets/c11992c2-c958-4f6f-9a0e-be0ced678dfa">
+
+See the code in action!
+
+<img width="619" alt="recipe_search_code_test" src="https://github.com/user-attachments/assets/f7269885-40f1-480e-a54f-3e125f842784">
+
