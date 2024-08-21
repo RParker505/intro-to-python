@@ -25,9 +25,11 @@ _Follow along with each stage of the project by navigating to the exercise folde
 - Use data types and methods to execute Python commands that store recipes containing their own internal data
 - Enter a number of these recipes into another linear data structure
 
-#### Exercies 3: Functions and Other Operations in Python
+#### Exercise 3: Functions and Other Operations in Python
 - Implement conditional statements in Python to determine program flow
 - Use loops to reduce time and effort in Python programming
 - Write functions to organize Python code
 
+#### Exercise 4: File Handling in Python
+- Use files to store and retrieve data in Python
 
