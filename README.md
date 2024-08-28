@@ -33,3 +33,5 @@ _Follow along with each stage of the project by navigating to the exercise folde
 #### Exercise 4: File Handling in Python
 - Use files to store and retrieve data in Python
 
+#### Exercise 5: Object-Oriented Programming in Python
+- Apply object-oriented programming concepts to your Recipe app
