@@ -35,3 +35,6 @@ _Follow along with each stage of the project by navigating to the exercise folde
 
 #### Exercise 5: Object-Oriented Programming in Python
 - Apply object-oriented programming concepts to your Recipe app
+
+#### Exercise 6: Databases in Python
+- Create a MySQL database for your Recipe app
