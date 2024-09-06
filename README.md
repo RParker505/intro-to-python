@@ -38,3 +38,7 @@ _Follow along with each stage of the project by navigating to the exercise folde
 
 #### Exercise 6: Databases in Python
 - Create a MySQL database for your Recipe app
+
+#### Exercise 7: Object-Relational Mapping in Python
+-	Interact with a database using an object-relational mapper
+-	Build your final command-line Recipe application
